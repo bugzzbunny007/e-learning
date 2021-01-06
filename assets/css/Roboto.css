@@ -1,0 +1,154 @@
+.body{
+
+    background-color: #003d5b;
+}
+.bg-web{
+    background-color: grey;
+    
+}
+
+.achieve{
+    border: 0;
+    padding: 0;
+    height: 60vh;
+    width: 100vw;
+    background-color:whitesmoke;
+}
+
+.head-brands{
+    font-family:'Gilroy-Bold ☞';
+    font-size:1.5em;
+    color: #000;
+  }
+
+.logo{
+    width: 100px;
+  }
+@media only screen and (max-width: 700px) {
+    .achieve{
+    margin: 0;
+    padding: 0;
+      background-color: whitesmoke;
+      height:140vh;
+    width: 100vw;
+    }
+  }
+  * {
+    box-sizing: border-box;
+    color: #707070;
+    font-family: Roboto, sans-serif;
+  }
+  
+  #test-list {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.5rem auto;
+    width: 75%;
+    max-width: 1200px;
+  }
+  #test-list section {
+    margin-bottom: 50px;
+    width: 264px;
+  }
+  #test-list section .top-box {
+    background-color: #DFDBD5;
+    width: 263px;
+    height: 103px;
+    position: absolute;
+    z-index: 1;
+  }
+  #test-list section img {
+    background-color: gray;
+    border-radius: 100%;
+    border: 3px soild #D4D4D4;
+    width: 133px;
+    height: 133px;
+    object-fit: cover;
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 15px;
+    z-index: 5;
+  }
+  #test-list section .bottom-box {
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+    width: 263px;
+    height: 238px;
+    transform: translateY(-50px);
+  }
+  #test-list section .bottom-box blockquote {
+    margin: 0 auto;
+    padding: 0;
+    width: 210px;
+  }
+  #test-list section .bottom-box blockquote p {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 60px;
+  }
+  #test-list section .bottom-box .test-details {
+    text-align: center;
+  }
+  #test-list section .bottom-box .test-details span {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .about{
+	cursor: pointer;
+	background-color: #e5e5e5;
+	color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.about h1 {
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+.about h2 {
+	opacity: .8;
+}
+.about span {
+	display: block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	margin:auto;
+	border-radius:50%;  
+	font-size: 40px;
+	color: #FFFFFF;
+	opacity: 0.7;
+	background-color: #4C0822;
+	border: 2px solid #4C0822;
+
+	webkit-transition:all .5s ease;
+ 	moz-transition:all .5s ease;
+ 	os-transition:all .5s ease;
+ 	transition:all .5s ease;
+
+}
+.about-item:hover span{
+	opacity: 1;	
+	border: 2px solid black;
+	font-size: 42px;
+	-webkit-transform: scale(1.1,1.1) rotate(360deg) ;
+	-moz-transform: scale(1.1,1.1) rotate(360deg) ;
+	-o-transform: scale(1.1,1.1) rotate(360deg) ;
+	transform: scale(1.1,1.1) rotate(360deg) ;
+}
+.about-item:hover h2{
+	opacity: 1;
+	-webkit-transform: scale(1.1,1.1)  ;
+	-moz-transform: scale(1.1,1.1)  ;
+	-o-transform: scale(1.1,1.1)  ;
+	transform: scale(1.1,1.1) ;
+}
+.about .lead{
+	color:black;
+	font-size: 14px;
+	font-weight: bold;
+}
